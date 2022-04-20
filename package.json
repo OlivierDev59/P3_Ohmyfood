@@ -1,0 +1,12 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/main.css ./sass/desktop.scss:./css/desktop.css ./sass/tablet.scss:./css/tablet.css"
+  },
+
+  "author": "Olivier Chauvel",
+  "license": "ISC"
+}
