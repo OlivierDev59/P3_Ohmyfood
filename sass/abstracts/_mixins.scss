@@ -1,0 +1,16 @@
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin paddingHeader {
+  padding: 3% 100%;
+}
