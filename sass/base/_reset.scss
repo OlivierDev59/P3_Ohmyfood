@@ -23,6 +23,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 h1,
 h2,
@@ -67,20 +68,16 @@ th {
 }
 
 /*New rules*/
-
 body {
-  max-width: 600px;
   font-family: 'Roboto', sans-serif;
-  width: 100%;
-
 }
 h1{
   font-family: 'Shrikhand', cursive;
-  font-size: 25px;
+  font-size: 30px;
 }
 h2 {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 800;
 }
 h3 {
   font-size: 17px;

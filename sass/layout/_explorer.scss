@@ -1,0 +1,13 @@
+.explorer {
+    background-color: rgba(238, 238, 238, 0.555);
+    height: 250px;
+
+    &__element {
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+    }
+}
