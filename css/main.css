@@ -83,11 +83,11 @@ body {
 
 h1 {
   font-family: "Shrikhand", cursive;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 800;
 }
 
@@ -102,7 +102,7 @@ h4 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 header {
@@ -132,18 +132,26 @@ header p .fa-location-dot {
   margin-right: 15px;
 }
 
-.explorer {
-  background-color: rgba(238, 238, 238, 0.555);
-  height: 250px;
-}
-.explorer__element {
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
+  background-color: rgba(238, 238, 238, 0.555);
+  height: 280px;
+  margin-bottom: 50px;
 }
-.explorer__element--modify {
+.section1 .explorer {
+  align-items: center;
+  height: 180px;
+}
+.section1 .explorer h2 {
+  margin-bottom: 20px;
+}
+.section1 .explorer a {
   text-decoration: none;
   border: 3px solid transparent;
-  padding: 10px 18px;
+  padding: 15px 20px;
   border-radius: 50px;
   background-color: violet;
   color: white;
