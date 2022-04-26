@@ -1,7 +1,7 @@
 .section1 {
   @include flexCentre;
   text-align: center;
-  background-color: rgba(238, 238, 238, 0.555);
+  background-color: $background;
   height: 280px;
   margin-bottom: 50px;
 
@@ -10,17 +10,7 @@
     height: 180px;
 
     h2 {
-      margin-bottom: 20px;
-      
+      margin-bottom: 10px;
     }
-
-    a {
-        text-decoration: none;
-        border: 3px solid transparent;
-        padding: 15px 20px;
-        border-radius: 50px;
-        background-color: violet;
-        color: white;
-      }
   }
 }

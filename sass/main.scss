@@ -1,6 +1,9 @@
 @import "./base/reset";
 
 @import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./components/buttons";
 
 @import "./layout/header";
 @import "./layout/explorer";
