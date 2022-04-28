@@ -2,15 +2,22 @@
   @include flexCentre;
   text-align: center;
   background-color: $background;
-  height: 280px;
+  height: 350px;
   margin-bottom: 50px;
 
   .explorer {
     @include flexColumn;
-    height: 200px;
+    height: 230px;
+    width: 350px;
+    margin: 0 20px;
+
+    h2 {
+      font-size: 30px;
+    }
 
     p {
       margin: 10px 0 35px 0;
+      font-size: 20px;
     }
   }
 }

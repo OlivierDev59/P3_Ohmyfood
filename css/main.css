@@ -159,7 +159,7 @@ header .map input {
   align-items: center;
   text-align: center;
   background-color: rgba(238, 238, 238, 0.555);
-  height: 280px;
+  height: 350px;
   margin-bottom: 50px;
 }
 .section1 .explorer {
@@ -167,10 +167,16 @@ header .map input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 200px;
+  height: 230px;
+  width: 350px;
+  margin: 0 20px;
+}
+.section1 .explorer h2 {
+  font-size: 30px;
 }
 .section1 .explorer p {
   margin: 10px 0 35px 0;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
