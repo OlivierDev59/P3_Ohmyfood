@@ -109,7 +109,6 @@ p {
   display: inline-block;
   text-decoration: none;
   border: 3px solid transparent;
-  margin-top: 20px;
   padding: 15px 20px;
   border-radius: 50px;
   background-color: violet;
@@ -130,17 +129,28 @@ header h1 {
   box-shadow: 1px 2px 5px rgb(170, 170, 170);
   margin-bottom: 3px;
 }
-header p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1% 0;
-  background-color: rgba(202, 202, 202, 0.377);
-  font-weight: 600;
+header h1 a {
+  text-decoration: none;
+  color: black;
 }
-header p .fa-location-dot {
-  font-size: 13px;
-  margin-right: 15px;
+header .map {
+  display: inline;
+  text-align: center;
+  background-color: rgba(202, 202, 202, 0.377);
+  width: 100%;
+  padding: 10px 0;
+}
+header .map i {
+  font-size: 16px;
+}
+header .map input {
+  text-align: center;
+  border: none;
+  background-color: rgba(228, 228, 228, 0.164);
+  font-weight: bold;
+  font-size: 18px;
+  width: 170px;
+  margin-left: 10px;
 }
 
 .section1 {
@@ -153,11 +163,14 @@ header p .fa-location-dot {
   margin-bottom: 50px;
 }
 .section1 .explorer {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 180px;
+  flex-direction: column;
+  height: 200px;
 }
-.section1 .explorer h2 {
-  margin-bottom: 10px;
+.section1 .explorer p {
+  margin: 10px 0 35px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

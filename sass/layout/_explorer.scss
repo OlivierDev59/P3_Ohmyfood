@@ -6,11 +6,11 @@
   margin-bottom: 50px;
 
   .explorer {
-    align-items: center;
-    height: 180px;
+    @include flexColumn;
+    height: 200px;
 
-    h2 {
-      margin-bottom: 10px;
+    p {
+      margin: 10px 0 35px 0;
     }
   }
 }
