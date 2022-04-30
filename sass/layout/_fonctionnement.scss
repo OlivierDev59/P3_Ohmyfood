@@ -1,0 +1,51 @@
+.section2 {
+  margin: 0 20px 40px 20px;
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  .choice {
+    margin: 30px 10px 30px 0;
+    position: relative;
+
+    span {
+      display: block;
+      text-align: center;
+      background-color: $backgroundChoiceNumber;
+      color: white;
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+      padding-top: 3px;
+      position: absolute;
+      top: 30px;
+      left: 0;
+    }
+
+    p {
+      border: 1px solid transparent;
+      border-radius: 25px;
+      background-color: $background;
+      padding: 30px 0 30px 30px;
+      box-shadow: 0px 2px 15px rgba(170, 170, 170, 0.671);
+      margin-left: 13px;
+      font-weight: 600;
+
+      i {
+        color: grey;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 25px;
+      }
+
+      .fa-ellipsis-vertical {
+        margin-right: 0;
+      }
+
+      .fa-bars {
+          margin-left: 2px;
+      }
+    }
+  }
+}

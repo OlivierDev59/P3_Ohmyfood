@@ -23,6 +23,12 @@
   align-items: center;
 }
 
+@mixin blockCenter {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin paddingHeader {
   padding: 1% 0;
 }
