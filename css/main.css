@@ -234,7 +234,6 @@ header .map input {
 .restaurants {
   background-color: rgba(238, 238, 238, 0.555);
   margin-top: 70px;
-  margin-bottom: 30px;
   padding: 50px 0;
 }
 .restaurants h2 {
@@ -282,6 +281,31 @@ header .map input {
 .restaurants .info i {
   font-size: 25px;
   margin-right: 25px;
+}
+
+footer {
+  background-color: rgb(63, 63, 63);
+}
+footer h4 {
+  color: white;
+  font-size: 17px;
+  padding: 25px 0 15px 20px;
+}
+footer .link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+footer .link a {
+  color: white;
+  margin: 5px 0;
+  text-decoration: none;
+}
+footer .link a i {
+  margin-right: 15px;
+  width: 20px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=main.css.map */

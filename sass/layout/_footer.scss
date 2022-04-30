@@ -1,0 +1,27 @@
+footer {
+    background-color: $backgroundFooter;
+
+    h4 {
+        color: white;
+        font-size: 17px;
+        padding: 25px 0 15px 20px;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding-bottom: 30px;
+        a {
+            color: white;
+            margin: 5px 0;
+            text-decoration: none;
+
+            i {
+                margin-right: 15px;
+                width: 20px;
+                font-size: 13px;
+            }
+        }
+    }
+}
