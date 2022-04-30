@@ -1,0 +1,56 @@
+.restaurants {
+  background-color: $background;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 50px 0;
+
+  h2 {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  &__box {
+    margin: 20px 20px;
+    border: 0 solid transparent;
+    box-shadow: $box-Shadow;
+    border-radius: 15px;
+
+    .img {
+        position: relative;
+      img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+      }
+      p {
+          display: inline;
+          background-color: rgb(133, 236, 202);
+          color: rgb(52, 158, 52);
+          font-weight: 500;
+          font-size: 15px;
+          width: auto;
+          padding: 5px 10px;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          border-radius: 3px;
+      }
+    }
+  }
+
+  .info {
+    @include flexBetween;
+    
+    &__title {
+        margin: 15px 10px;
+    }
+
+    i {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+  }
+}

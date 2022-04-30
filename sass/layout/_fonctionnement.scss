@@ -1,5 +1,5 @@
 .section2 {
-  margin: 0 20px 40px 20px;
+  margin: 0 20px 0 20px;
 
   h2 {
     margin-bottom: 25px;
@@ -37,7 +37,7 @@
       border-radius: 25px;
       background-color: $background;
       padding: 30px 0 30px 30px;
-      box-shadow: 0px 2px 15px rgba(170, 170, 170, 0.671);
+      box-shadow: $box-Shadow;
       font-weight: 600;
 
       i {
