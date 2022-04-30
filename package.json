@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/main.css ./sass/desktop.scss:./css/desktop.css ./sass/tablet.scss:./css/tablet.css"
+    "sass": "sass --watch ./sass/main.scss:./css/main.css ./sass/desktop.scss:./css/desktop.css ./sass/tablet.scss:./css/tablet.css ./sass/le-délice-des-sens.scss:./css/le-délice-des-sens.css"
   },
-
   "author": "Olivier Chauvel",
   "license": "ISC"
 }

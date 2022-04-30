@@ -1,0 +1,124 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*New rules*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Shrikhand", cursive;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 17px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+header h1 {
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=le-d%C3%A9lice-des-sens.css.map */
