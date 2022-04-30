@@ -1,0 +1,53 @@
+.articles {
+  margin: 30px 0px 30px 0px;
+
+  &__box {
+    margin: 20px 0;
+
+    h3 {
+      font-weight: 400;
+      font-size: 17px;
+      padding-bottom: 5px;
+      margin-left: 5px;
+    }
+
+    &--modify {
+      border-bottom: 3px solid #99e2d0;
+      width: 40px;
+      margin-bottom: 15px
+    }
+
+    .menu {
+        @include flexBetween;
+        background-color: white;
+        padding: 20px 10px;
+        border-radius: 15px;
+
+        &__description {
+            
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                font-family:  'Roboto',sans-serif;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        &__price {
+
+            p {
+                font-weight: 600;
+                margin: 30px 20px 0 0;
+            }
+
+            i {
+                display: none;
+            }
+        }
+    }
+  }
+}

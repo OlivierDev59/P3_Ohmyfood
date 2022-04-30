@@ -126,13 +126,13 @@ main {
 }
 
 section {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(245, 245, 245);
   padding: 25px 20px;
   border-radius: 35px;
   position: absolute;
-  bottom: -40px;
-  left: 0;
+  top: 80%;
   width: 100%;
+  height: 100vh;
 }
 section .titleH2 {
   display: flex;
@@ -145,6 +145,48 @@ section .titleH2 h2 {
 section .titleH2 i {
   font-size: 25px;
   margin-right: 20px;
+}
+
+.articles {
+  margin: 30px 0px 30px 0px;
+}
+.articles__box {
+  margin: 20px 0;
+}
+.articles__box h3 {
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+}
+.articles__box--modify {
+  border-bottom: 3px solid #99e2d0;
+  width: 40px;
+  margin-bottom: 15px;
+}
+.articles__box .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+.articles__box .menu__description h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5px;
+}
+.articles__box .menu__description p {
+  font-size: 15px;
+}
+.articles__box .menu__price p {
+  font-weight: 600;
+  margin: 30px 20px 0 0;
+}
+.articles__box .menu__price i {
+  display: none;
 }
 
 /*# sourceMappingURL=le-d%C3%A9lice-des-sens.css.map */
