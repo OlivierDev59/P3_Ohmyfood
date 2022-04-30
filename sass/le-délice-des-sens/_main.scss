@@ -1,0 +1,26 @@
+main {
+  position: relative;
+}
+
+section {
+  background-color: $backgroundPages;
+  padding: 25px 20px;
+  border-radius: 35px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+
+  .titleH2 {
+    @include flexCentre;
+
+    h2 {
+      font-family: "Shrikhand", cursive;
+    }
+
+    i {
+      font-size: 25px;
+      margin-right: 20px;
+    }
+  }
+}
