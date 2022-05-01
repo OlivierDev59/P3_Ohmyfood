@@ -140,9 +140,10 @@ main {
   position: relative;
 }
 main img {
-  max-height: 470px;
+  height: 470px;
   width: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 main section {
   background-color: rgb(245, 245, 245);
@@ -216,4 +217,4 @@ main section .titleH2 i {
   margin-bottom: 50px;
 }
 
-/*# sourceMappingURL=le-d%C3%A9lice-des-sens.css.map */
+/*# sourceMappingURL=la-note-enchant%C3%A9e.css.map */

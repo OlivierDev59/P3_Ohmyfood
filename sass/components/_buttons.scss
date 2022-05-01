@@ -1,12 +1,14 @@
-.section1 {
-
-    a {
-        display: inline-block;
-        text-decoration: none;
-        border: 3px solid transparent;
-        padding: 15px 20px;
-        border-radius: 50px;
-        background-color: $backgroundBtn;
-        color: white;
-      }
+.btn {
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 3px solid transparent;
+  padding: 15px 20px;
+  border-radius: 50px;
+  background-color: $backgroundBtn;
+  color: white;
+  width: 250px;
+  margin: auto;
 }

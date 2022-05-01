@@ -3,8 +3,9 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
-@import "./le-délice-des-sens/header";
-@import "./le-délice-des-sens/main";
-@import "./le-délice-des-sens/entrées";
-@import "./le-délice-des-sens/plats";
-@import "./le-délice-des-sens/desserts";
+@import "./components/buttons";
+
+@import "./page/le-délice-des-sens/header";
+@import "./page/le-délice-des-sens/main";
+@import "./page/le-délice-des-sens/food";
+@import "./page/le-délice-des-sens/footer";

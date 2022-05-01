@@ -139,11 +139,6 @@ header h1 {
 main {
   position: relative;
 }
-main img {
-  max-height: 470px;
-  width: 100%;
-  object-fit: cover;
-}
 main section {
   background-color: rgb(245, 245, 245);
   padding: 25px 20px;
@@ -216,4 +211,4 @@ main section .titleH2 i {
   margin-bottom: 50px;
 }
 
-/*# sourceMappingURL=le-d%C3%A9lice-des-sens.css.map */
+/*# sourceMappingURL=%C3%A0-la-fran%C3%A7aise.css.map */
