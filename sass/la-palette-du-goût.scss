@@ -1,11 +1,12 @@
 @import "./base/reset";
+@import "./base/base";
 
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 @import "./components/buttons";
 
-@import "./page/la-palette-du-goût/header";
-@import "./page/la-palette-du-goût/main";
-@import "./page/la-palette-du-goût/food";
-@import "./page/la-palette-du-goût/footer";
+@import "./restaurants/header";
+@import "./restaurants/main";
+@import "./restaurants/food";
+@import "./layout/footer";

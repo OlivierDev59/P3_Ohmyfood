@@ -1,11 +1,12 @@
 @import "./base/reset";
+@import "./base/base";
 
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 @import "./components/buttons";
 
-@import "./page/à-la-française/header";
-@import "./page/à-la-française/main";
-@import "./page/à-la-française/food";
-@import "./page/à-la-française/footer";
+@import "./restaurants/header";
+@import "./restaurants/main";
+@import "./restaurants/food";
+@import "./layout/footer";

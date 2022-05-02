@@ -123,7 +123,6 @@ p {
 
 header {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 header a {
@@ -131,22 +130,31 @@ header a {
   color: black;
   font-size: 25px;
   margin-left: 20px;
+  justify-content: flex-start;
 }
 header h1 {
-  margin-left: 50px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 15px;
 }
 
 main {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+main img {
+  max-height: 470px;
+  height: 65vw;
+  width: 100%;
+  object-fit: cover;
 }
 main section {
   background-color: rgb(245, 245, 245);
   padding: 25px 20px;
   border-radius: 35px;
-  position: absolute;
-  top: 80%;
   width: 100%;
-  height: auto;
+  height: 1310px;
+  margin-top: -30px;
 }
 main section .titleH2 {
   display: flex;
@@ -209,6 +217,32 @@ main section .titleH2 i {
 }
 .articles__margin {
   margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+  height: 200px;
+}
+footer h4 {
+  color: white;
+  font-size: 17px;
+  padding: 25px 0 15px 20px;
+}
+footer .link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+footer .link a {
+  color: white;
+  margin: 5px 0;
+  text-decoration: none;
+}
+footer .link a i {
+  margin-right: 15px;
+  width: 20px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=%C3%A0-la-fran%C3%A7aise.css.map */

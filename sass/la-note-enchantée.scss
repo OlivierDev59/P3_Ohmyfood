@@ -1,11 +1,12 @@
 @import "./base/reset";
+@import "./base/base";
 
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 @import "./components/buttons";
 
-@import "./page/la-note-enchantée/header";
-@import "./page/la-note-enchantée/main";
-@import "./page/la-note-enchantée/food";
-@import "./page/la-note-enchantée/footer";
+@import "./restaurants/header";
+@import "./restaurants/main";
+@import "./restaurants/food";
+@import "./layout/footer";

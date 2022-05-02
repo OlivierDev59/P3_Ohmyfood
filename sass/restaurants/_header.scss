@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        margin-left: 20px;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        justify-content: center;
+        text-align: center;
+        margin: 0 15px;
+    }
+}
