@@ -1,0 +1,23 @@
+.section2 {
+  display: inline;
+  text-align: center;
+
+  .blockChoice {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+    .choice {
+      display: flex;
+      margin: 0 20px;
+
+      p {
+          padding-right: 30px;
+      }
+    }
+  }
+}
+
+footer {
+    text-align: center;
+}

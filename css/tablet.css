@@ -1,3 +1,134 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*New rules*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Shrikhand", cursive;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 17px;
+}
+
+.section2 {
+  display: inline;
+  text-align: center;
+}
+.section2 .blockChoice {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.section2 .blockChoice .choice {
+  display: flex;
+  margin: 0 20px;
+}
+.section2 .blockChoice .choice p {
+  padding-right: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+section h3 {
+  margin: auto;
+}
 
 /*# sourceMappingURL=tablet.css.map */
