@@ -117,10 +117,31 @@ p {
 }
 .section2 .blockChoice .choice {
   display: flex;
-  margin: 0 20px;
+  margin: 0 10px;
+}
+.section2 .blockChoice .choice span {
+  top: -13px;
+  left: 43%;
 }
 .section2 .blockChoice .choice p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-right: 30px;
+}
+.section2 .blockChoice .choice p i {
+  padding-bottom: 10px;
+}
+.section2 .blockChoice .choice p .fa-bars {
+  margin-top: -30px;
+  margin-right: 0px;
+}
+.section2 .blockChoice .choice p .fa-ellipsis-vertical {
+  margin-right: 35px;
+}
+.section2 .blockChoice .choice p .fa-store {
+  margin-left: 20px;
 }
 
 footer {

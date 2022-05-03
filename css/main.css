@@ -108,9 +108,7 @@ p {
 
 .btn {
   display: block;
-  align-items: center;
   text-align: center;
-  justify-content: center;
   text-decoration: none;
   border: 3px solid transparent;
   padding: 15px 20px;

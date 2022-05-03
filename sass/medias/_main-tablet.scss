@@ -9,15 +9,38 @@
 
     .choice {
       display: flex;
-      margin: 0 20px;
+      margin: 0 10px;
+
+      span {
+        top: -13px;
+        left: 43%;
+      }
 
       p {
-          padding-right: 30px;
+        @include flexColumn;
+        padding-right: 30px;
+
+        i {
+          padding-bottom: 10px;
+        }
+
+         .fa-bars {
+           margin-top: -30px;
+           margin-right: 0px;
+         }
+
+         .fa-ellipsis-vertical {
+           margin-right: 35px;
+         }
+
+         .fa-store {
+           margin-left: 20px;
+         }
       }
     }
   }
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
