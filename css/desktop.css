@@ -106,4 +106,53 @@ p {
   font-size: 17px;
 }
 
+.section2 .choice {
+  width: 100%;
+}
+
+.restaurants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.restaurants h2 {
+  text-align: center;
+}
+.restaurants__box {
+  width: 40%;
+}
+
+footer h4 {
+  padding-top: 70px;
+}
+footer .link {
+  display: block;
+}
+footer .link a {
+  margin: 0 20px;
+}
+
+section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+section .titleH2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-220px, 20px);
+}
+section .titleH2 h2 {
+  margin: 0 90px;
+}
+section .food {
+  display: flex;
+}
+section .articles {
+  margin: 50px 20px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=desktop.css.map */

@@ -1,12 +1,26 @@
 .btn {
   display: block;
-  text-align: center;
-  text-decoration: none;
+  
   border: 3px solid transparent;
-  padding: 15px 20px;
+  padding: 15px 75px;
   border-radius: 50px;
   background-color: $backgroundBtn;
-  color: white;
-  width: 250px;
-  margin: auto;
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+}
+
+.btnBackground {
+  background-color: $background;
+  display: flex;
+justify-content: center;
+padding-bottom: 50px;
+margin-bottom: 20px;
+  .btn {
+    text-decoration: none;
+    color: white;
+    }
 }

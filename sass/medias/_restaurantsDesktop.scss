@@ -1,0 +1,28 @@
+section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+
+  .titleH2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-220px, 20px);
+
+    h2 {
+      margin: 0 90px;
+    }
+  }
+
+  .food {
+    display: flex;
+
+  }
+
+  .articles {
+    margin: 50px 20px;
+    width: 100%;
+  }
+
+}

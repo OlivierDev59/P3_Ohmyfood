@@ -108,15 +108,26 @@ p {
 
 .btn {
   display: block;
-  text-align: center;
-  text-decoration: none;
   border: 3px solid transparent;
-  padding: 15px 20px;
+  padding: 15px 75px;
   border-radius: 50px;
   background-color: violet;
+}
+.btn a {
+  text-decoration: none;
   color: white;
-  width: 250px;
-  margin: auto;
+}
+
+.btnBackground {
+  background-color: rgba(238, 238, 238, 0.555);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.btnBackground .btn {
+  text-decoration: none;
+  color: white;
 }
 
 header {
@@ -148,8 +159,8 @@ main img {
 }
 main section {
   background-color: rgb(245, 245, 245);
-  padding: 25px 20px 50px 20px;
-  border-radius: 35px;
+  padding: 25px 20px 0px 20px;
+  border-radius: 35px 35px 0 0;
   width: 100%;
   height: auto;
   margin-top: -30px;
@@ -164,7 +175,7 @@ main section .titleH2 h2 {
 }
 main section .titleH2 i {
   font-size: 25px;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 .articles {
@@ -189,6 +200,7 @@ main section .titleH2 i {
   padding: 10px 10px;
   border-radius: 15px;
   width: 100%;
+  height: 110px;
 }
 .articles__box .menu__description h4 {
   font-size: 18px;
@@ -202,7 +214,7 @@ main section .titleH2 i {
 }
 .articles__box .menu__price p {
   font-weight: 600;
-  margin: 30px 20px 0 0;
+  margin: 30px 20px 10px 10px;
 }
 .articles__box .menu__price i {
   display: none;

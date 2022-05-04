@@ -10,15 +10,17 @@
     .choice {
       display: flex;
       margin: 0 10px;
+      width: 100%;
 
       span {
         top: -13px;
-        left: 43%;
+        left: 50%;
+        transform: translate(-50%, -1%)
       }
 
       p {
         @include flexColumn;
-        padding-right: 30px;
+        padding-right: 28px;
 
         i {
           padding-bottom: 10px;
@@ -43,4 +45,12 @@
 
 footer {
   text-align: center;
+
+  h4 {
+    padding-left: 0;
+  }
+
+    .link {
+      margin-left: 0;
+    }
 }

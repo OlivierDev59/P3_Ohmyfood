@@ -118,17 +118,19 @@ p {
 .section2 .blockChoice .choice {
   display: flex;
   margin: 0 10px;
+  width: 100%;
 }
 .section2 .blockChoice .choice span {
   top: -13px;
-  left: 43%;
+  left: 50%;
+  transform: translate(-50%, -1%);
 }
 .section2 .blockChoice .choice p {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-right: 30px;
+  padding-right: 28px;
 }
 .section2 .blockChoice .choice p i {
   padding-bottom: 10px;
@@ -146,6 +148,12 @@ p {
 
 footer {
   text-align: center;
+}
+footer h4 {
+  padding-left: 0;
+}
+footer .link {
+  margin-left: 0;
 }
 
 section h3 {
