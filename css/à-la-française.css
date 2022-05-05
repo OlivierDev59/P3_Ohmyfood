@@ -87,7 +87,7 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 800;
 }
 
@@ -109,7 +109,7 @@ p {
 .btn {
   display: block;
   border: 3px solid transparent;
-  padding: 15px 75px;
+  padding: 15px 40px;
   border-radius: 50px;
   background-color: violet;
 }
@@ -119,7 +119,7 @@ p {
 }
 
 .btnBackground {
-  background-color: rgba(238, 238, 238, 0.555);
+  background-color: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
