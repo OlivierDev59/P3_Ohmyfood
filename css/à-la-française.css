@@ -108,14 +108,21 @@ p {
 
 .btn {
   display: block;
-  border: 3px solid transparent;
+  border: 0 solid transparent;
   padding: 15px 40px;
   border-radius: 50px;
-  background-color: violet;
+  background-color: #9356dc;
+  background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 150%);
+  transition: 1s;
 }
 .btn a {
   text-decoration: none;
   color: white;
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .btnBackground {
@@ -128,6 +135,20 @@ p {
 .btnBackground .btn {
   text-decoration: none;
   color: white;
+}
+
+.heart {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.heart__icon {
+  width: 30px;
+}
+.heart__icon path {
+  fill: transparent;
+  stroke-width: 20;
+  stroke: black;
 }
 
 header {

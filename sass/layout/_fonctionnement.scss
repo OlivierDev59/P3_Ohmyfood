@@ -10,7 +10,7 @@
     border-radius: 25px;
 
     .fa-store {
-      color: #9356DC;
+      color: #9356dc;
     }
   }
 
@@ -34,7 +34,7 @@
 
     p {
       border: 1px solid transparent;
-      border-radius: 25px;
+      border-radius: 20px;
       background-color: $background;
       padding: 20px 0 20px 25px;
       box-shadow: $box-Shadow;
@@ -47,12 +47,16 @@
         margin-right: 25px;
       }
 
+      .icon-mobil {
+        margin-right: 33px;
+      }
+
       .fa-ellipsis-vertical {
         margin-right: 0;
       }
 
       .fa-bars {
-          margin-left: 2px;
+        margin-left: 2px;
       }
     }
   }
