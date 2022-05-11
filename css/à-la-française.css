@@ -240,9 +240,12 @@ main section .titleH2 i {
 .articles__box .menu__description p {
   font-size: 15px;
 }
+.articles__box .menu__price {
+  display: flex;
+}
 .articles__box .menu__price p {
   font-weight: 600;
-  margin: 30px 20px 10px 10px;
+  margin-right: 20px;
 }
 .articles__box .menu__price i {
   display: none;

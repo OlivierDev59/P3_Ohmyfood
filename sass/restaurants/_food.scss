@@ -13,7 +13,6 @@
 
   &__box {
     margin: 20px 0;
-    
 
     .menu {
       @include flexBetween;
@@ -38,9 +37,10 @@
       }
 
       &__price {
+        display: flex;
         p {
           font-weight: 600;
-          margin: 30px 20px 10px 10px;
+          margin-right: 20px;
         }
 
         i {

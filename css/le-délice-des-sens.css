@@ -137,6 +137,27 @@ p {
   color: white;
 }
 
+.heart {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 25px;
+}
+.heart__two {
+  margin-top: -25px;
+  color: transparent;
+  background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 150%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.heart__two:hover {
+  display: inline-table;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 header {
   display: flex;
   align-items: center;
@@ -219,9 +240,12 @@ main section .titleH2 i {
 .articles__box .menu__description p {
   font-size: 15px;
 }
+.articles__box .menu__price {
+  display: flex;
+}
 .articles__box .menu__price p {
   font-weight: 600;
-  margin: 30px 20px 10px 10px;
+  margin-right: 20px;
 }
 .articles__box .menu__price i {
   display: none;
