@@ -137,20 +137,6 @@ p {
   color: white;
 }
 
-.heart {
-  display: flex;
-  flex-direction: column;
-  margin-right: 25px;
-}
-.heart__icon {
-  width: 30px;
-}
-.heart__icon path {
-  fill: transparent;
-  stroke-width: 20;
-  stroke: black;
-}
-
 header {
   display: flex;
   align-items: center;

@@ -31,19 +31,4 @@
   }
 }
 
-.heart {
-  display: flex;
-  flex-direction: column;
-  margin-right: 25px;
 
-  &__icon {
-    width: 30px;
-
-    path {
-      fill: transparent;
-      stroke-width: 20;
-      stroke: black;
-      
-    }
-  }
-}

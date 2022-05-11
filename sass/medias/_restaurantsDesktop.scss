@@ -5,19 +5,15 @@ section {
   flex-direction: column;
 
   .titleH2 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-220px, 20px);
+    text-align: center;
 
     h2 {
-      margin: 0 90px;
+      margin-left: 60px;
     }
   }
 
   .food {
     display: flex;
-
   }
 
   .articles {
@@ -25,4 +21,8 @@ section {
     width: 100%;
   }
 
+  .heart {
+    margin-right: 50px;
+    cursor: pointer;
+  }
 }
