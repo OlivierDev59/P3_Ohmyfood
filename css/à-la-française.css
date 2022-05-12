@@ -158,6 +158,30 @@ p {
   transform: scale(1.1);
 }
 
+.articles__box {
+  cursor: pointer;
+}
+.articles__box .menu {
+  padding-right: 0;
+  overflow: hidden;
+}
+.articles__box .menu:hover .check {
+  margin-right: 0;
+  transition-duration: 0.5s;
+}
+.articles__box .menu:hover .check .fa-circle-check {
+  animation-name: circle;
+  animation-duration: 0.9s;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 header {
   display: flex;
   align-items: center;
@@ -225,10 +249,18 @@ main section .titleH2 i {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 10px 10px;
+  padding: 10px 0 10px 10px;
   border-radius: 15px;
   width: 100%;
-  height: 110px;
+  height: 62px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.articles__box .menu__description {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .articles__box .menu__description h4 {
   font-size: 18px;
@@ -236,19 +268,36 @@ main section .titleH2 i {
   font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
   width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .articles__box .menu__description p {
   font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .articles__box .menu__price {
   display: flex;
 }
 .articles__box .menu__price p {
+  margin: 60px 20px 0 10px;
   font-weight: 600;
-  margin-right: 20px;
+  width: 20px;
 }
-.articles__box .menu__price i {
-  display: none;
+.articles__box .menu__price .check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99e2d0;
+  height: 110px;
+  width: 50px;
+  margin-right: -50px;
+}
+.articles__box .menu__price .check .fa-circle-check {
+  color: white;
+  font-size: 20px;
 }
 .articles__margin {
   margin-bottom: 50px;

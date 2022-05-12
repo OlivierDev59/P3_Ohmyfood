@@ -208,4 +208,10 @@ section .heart {
   cursor: pointer;
 }
 
+.menu {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=desktop.css.map */

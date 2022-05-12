@@ -13,38 +13,62 @@
 
   &__box {
     margin: 20px 0;
+    
 
     .menu {
       @include flexBetween;
       background-color: white;
-      padding: 10px 10px;
+      padding: 10px 0 10px 10px;
       border-radius: 15px;
       width: 100%;
-      height: 110px;
+      height: 62px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
 
       &__description {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
         h4 {
           font-size: 18px;
           font-weight: 600;
           font-family: "Roboto", sans-serif;
           margin-bottom: 5px;
           width: 100%;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
         }
 
         p {
           font-size: 15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
         }
       }
 
       &__price {
         display: flex;
+
         p {
+          margin: 60px 20px 0 10px;
           font-weight: 600;
-          margin-right: 20px;
+          width: 20px;
         }
 
-        i {
-          display: none;
+        .check {
+          @include flexCentre;
+          background-color: #99e2d0;
+          height: 110px;
+          width: 50px;
+          margin-right: -50px;
+
+          .fa-circle-check {
+            color: white;
+            font-size: 20px;
+          }
         }
       }
     }

@@ -25,4 +25,11 @@ section {
     margin-right: 50px;
     cursor: pointer;
   }
+
+}
+
+.menu {
+  white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
 }
