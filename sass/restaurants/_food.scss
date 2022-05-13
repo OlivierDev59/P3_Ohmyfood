@@ -13,7 +13,18 @@
 
   &__box {
     margin: 20px 0;
-    
+    animation-duration: 1s;
+    animation-name: slideMenu;
+    animation-delay: 0.5s;
+
+    @keyframes slideMenu {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
     .menu {
       @include flexBetween;
@@ -22,8 +33,6 @@
       border-radius: 15px;
       width: 100%;
       height: 62px;
-      white-space: nowrap;
-      text-overflow: ellipsis;
       overflow: hidden;
 
       &__description {
@@ -31,7 +40,7 @@
         text-overflow: ellipsis;
         overflow: hidden;
         h4 {
-          font-size: 18px;
+          font-size: 15px;
           font-weight: 600;
           font-family: "Roboto", sans-serif;
           margin-bottom: 5px;
@@ -42,7 +51,7 @@
         }
 
         p {
-          font-size: 15px;
+          font-size: 12px;
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden;
@@ -51,9 +60,10 @@
 
       &__price {
         display: flex;
+        height: 62px;
 
         p {
-          margin: 60px 20px 0 10px;
+          margin: 30px 20px 0 10px;
           font-weight: 600;
           width: 20px;
         }
@@ -61,7 +71,7 @@
         .check {
           @include flexCentre;
           background-color: #99e2d0;
-          height: 110px;
+          height: auto;
           width: 50px;
           margin-right: -50px;
 

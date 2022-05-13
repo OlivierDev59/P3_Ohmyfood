@@ -8,7 +8,7 @@
     &:hover {
       .check {
         margin-right: 0;
-        transition-duration: 0.5s;
+        transition: margin-right 0.9s;
 
         .fa-circle-check {
           animation-name: circle;

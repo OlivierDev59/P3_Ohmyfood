@@ -116,15 +116,13 @@ p {
   margin-top: -25px;
   color: transparent;
   background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 150%);
-  background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .heart__two:hover {
   display: inline-table;
   opacity: 1;
-  transform: scale(1.1);
 }
 
 .section2 {

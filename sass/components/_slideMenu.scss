@@ -1,0 +1,28 @@
+.articles__box {
+  animation: slideMenu 2s ease 0.5s 1 normal both;
+}
+
+@keyframes slideMenu {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.articles__box:nth-child(1) {
+  animation-delay: 0s;
+}
+.articles__box:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.articles__box:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.articles__box:nth-child(4) {
+  animation-delay: 0.6s;
+}
