@@ -162,11 +162,11 @@ p {
   padding-right: 0;
   overflow: hidden;
 }
-.articles__box .menu:hover .check {
+.articles__box .menu:active .check {
   margin-right: 0;
   transition: margin-right 0.9s;
 }
-.articles__box .menu:hover .check .fa-circle-check {
+.articles__box .menu:active .check .fa-circle-check {
   animation-name: circle;
   animation-duration: 0.9s;
 }

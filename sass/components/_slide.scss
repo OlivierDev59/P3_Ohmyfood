@@ -5,7 +5,7 @@
     padding-right: 0;
     overflow: hidden;
 
-    &:hover {
+    &:active {
       .check {
         margin-right: 0;
         transition: margin-right 0.9s;
