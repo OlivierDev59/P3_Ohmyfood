@@ -1,14 +1,26 @@
+$colorPrimary: #9356DC;
+$colorSecondary: #FF79DA;
+$colorTertiary: #99E2D0;
+
+// input
 $backgroundMap: rgba(202, 202, 202, 0.377);
 $backgroundInput: rgba(228, 228, 228, 0.164);
 
+// icon fontionnement
+$fonctionnementIcon: grey;
+
+// background principale
 $background: rgba(238, 238, 238, 0.555);
 
-$backgroundBtn: violet;
+// couleurs de l'élément nouveau
+$colorNew: rgb(52, 158, 52);
+$backgroundNew: rgb(133, 236, 202);
 
-$backgroundChoiceNumber: #9356DC;
-
+// ombres
 $box-Shadow: 0px 2px 15px rgba(170, 170, 170, 0.671);
 
+// background du footer
 $backgroundFooter: rgb(63, 63, 63);
 
+// background des pages restaurants
 $backgroundPages : rgb(245, 245, 245);

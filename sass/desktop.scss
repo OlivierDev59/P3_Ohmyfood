@@ -4,10 +4,5 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
-@import "./components/buttons";
-@import "./components/heart";
-
-
-
-@import "./medias/mainDesktop";
-@import "./medias/restaurantsDesktop";
+@import "./medias/mobile-desktop";
+@import "./medias/restaurants-desktop";

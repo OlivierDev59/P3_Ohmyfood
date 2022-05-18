@@ -6,11 +6,12 @@
 
 @import "./components/buttons";
 @import "./components/heart";
-@import "./components/slide";
+@import "./components/check";
 @import "./components/slideMenu";
 
 
-@import "./restaurants/header";
-@import "./restaurants/main";
-@import "./restaurants/food";
+@import "./layout/restaurants/header";
+@import "./layout/restaurants/image";
+@import "./layout/restaurants/main";
+@import "./layout/restaurants/menu";
 @import "./layout/footer";

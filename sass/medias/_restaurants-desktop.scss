@@ -14,11 +14,12 @@ section {
 
   .food {
     display: flex;
+    justify-content: space-around;
   }
 
   .articles {
-    margin: 50px 20px;
-    width: 100%;
+    margin: 50px 23px;
+    width: 27vw;
   }
 
   .heart {

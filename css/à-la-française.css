@@ -162,13 +162,16 @@ p {
   padding-right: 0;
   overflow: hidden;
 }
-.articles__box .menu:active .check {
-  margin-right: 0;
-  transition: margin-right 0.9s;
+.articles__box .menu .check {
+  transition: all 1s;
 }
-.articles__box .menu:active .check .fa-circle-check {
+.articles__box .menu:hover .check {
+  margin-right: 0;
+  transition: margin-right 1s;
+}
+.articles__box .menu:hover .check .fa-circle-check {
   animation-name: circle;
-  animation-duration: 0.9s;
+  animation-duration: 1s;
 }
 
 @keyframes circle {
@@ -236,7 +239,8 @@ main img {
   width: 100%;
   object-fit: cover;
 }
-main section {
+
+section {
   background-color: rgb(245, 245, 245);
   padding: 25px 20px 0px 20px;
   border-radius: 35px 35px 0 0;
@@ -244,15 +248,15 @@ main section {
   height: auto;
   margin-top: -30px;
 }
-main section .titleH2 {
+section .titleH2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main section .titleH2 h2 {
+section .titleH2 h2 {
   font-family: "Shrikhand", cursive;
 }
-main section .titleH2 i {
+section .titleH2 i {
   font-size: 25px;
 }
 

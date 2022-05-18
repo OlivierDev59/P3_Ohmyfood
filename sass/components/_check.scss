@@ -4,15 +4,19 @@
   .menu {
     padding-right: 0;
     overflow: hidden;
+    .check {
+      transition: all 1s;
+    }
 
-    &:active {
+
+    &:hover {
       .check {
         margin-right: 0;
-        transition: margin-right 0.9s;
+        transition: margin-right 1s;
 
         .fa-circle-check {
           animation-name: circle;
-          animation-duration: 0.9s;
+          animation-duration: 1s;
         }
       }
     }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/main.css ./sass/desktop.scss:./css/desktop.css ./sass/tablet.scss:./css/tablet.css ./sass/le-délice-des-sens.scss:./css/le-délice-des-sens.css ./sass/la-note-enchantée.scss:./css/la-note-enchantée.css ./sass/la-palette-du-goût.scss:./css/la-palette-du-goût.css ./sass/à-la-française.scss:./css/à-la-française.css"
+    "sass": "sass --watch ./sass/mobile.scss:./css/mobile.css ./sass/desktop.scss:./css/desktop.css ./sass/tablet.scss:./css/tablet.css ./sass/le-délice-des-sens.scss:./css/le-délice-des-sens.css ./sass/la-note-enchantée.scss:./css/la-note-enchantée.css ./sass/la-palette-du-goût.scss:./css/la-palette-du-goût.css ./sass/à-la-française.scss:./css/à-la-française.css"
   },
   "author": "Olivier Chauvel",
   "license": "ISC"

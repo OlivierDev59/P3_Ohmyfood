@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-height: 470px;
+    height: 65vw;
+    width: 100%;
+    object-fit: cover;
+  }
+}

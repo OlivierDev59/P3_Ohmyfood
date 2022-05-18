@@ -10,7 +10,7 @@
     border-radius: 25px;
 
     .fa-store {
-      color: #9356dc;
+      color: $colorPrimary;
     }
   }
 
@@ -21,7 +21,7 @@
     span {
       display: block;
       text-align: center;
-      background-color: $backgroundChoiceNumber;
+      background-color: $colorPrimary;
       color: white;
       width: 25px;
       height: 25px;
@@ -41,7 +41,7 @@
       font-weight: 600;
 
       i {
-        color: grey;
+        color: $fonctionnementIcon;
         font-size: 20px;
         margin-left: 10px;
         margin-right: 25px;
