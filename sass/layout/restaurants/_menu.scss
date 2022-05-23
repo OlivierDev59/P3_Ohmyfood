@@ -33,7 +33,6 @@
       border-radius: 15px;
       width: 100%;
       height: 62px;
-      overflow: hidden;
 
       &__description {
         white-space: nowrap;
@@ -72,8 +71,6 @@
           @include flexCentre;
           background-color: #99e2d0;
           height: auto;
-          width: 50px;
-          margin-right: -50px;
 
           .fa-circle-check {
             color: white;

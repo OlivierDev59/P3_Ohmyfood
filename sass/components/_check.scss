@@ -5,7 +5,9 @@
     padding-right: 0;
     overflow: hidden;
     .check {
-      transition: all 1s;
+      transition: margin-right 1s;
+      width: $marginIconCheck;
+      margin-right: -$marginIconCheck;
     }
 
 

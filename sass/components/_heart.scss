@@ -10,7 +10,7 @@
     background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 150%);
     -webkit-background-clip: text;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     
     &:hover {
       display: inline-table;
