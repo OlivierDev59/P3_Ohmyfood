@@ -1,37 +1,18 @@
-header {
-  @include flexColumn;
 
-  h1 {
-    @include flexCentre;
-    @include paddingHeader;
+  header {
+    @include flexColumn;
     box-shadow: 1px 2px 5px rgb(170, 170, 170);
-    margin-bottom: 3px;
 
-    a {
-      text-decoration: none;
-      color: black;
+    h1 {
+      @include flexCentre;
+      @include paddingHeader;
+      margin-bottom: 3px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
     }
+
+    
   }
-
-  .map {
-    display: inline;
-    text-align: center;
-    background-color: $backgroundMap;
-    width: 100%;
-    padding: 10px 0;
-
-    i {
-      font-size: 16px;
-    }
-
-    input {
-      text-align: center;
-      border: none;
-      background-color: $backgroundInput;
-      font-weight: bold;
-      font-size: 18px;
-      width: 170px;
-      margin-left: 10px;
-    }
-  }
-}

@@ -1,34 +1,34 @@
-.section2 {
-  .choice {
-    width: 100%;
+@media screen and (min-width: 1000px) {
+  .section2 {
+    .choice {
+      width: 100%;
+    }
   }
-}
 
-.restaurants {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-  h2 {
+    h2 {
       text-align: center;
+    }
+
+    &__box {
+      width: 40%;
+    }
   }
-  
 
-  &__box {
-    width: 40%;
-  }
-
-}
-
-footer {
+  footer {
     h4 {
-        padding-top: 70px;
+      padding-top: 70px;
     }
     .link {
-        display: block;
+      display: block;
 
-        a {
-            margin: 0 20px;
-        }
+      a {
+        margin: 0 20px;
+      }
     }
+  }
 }

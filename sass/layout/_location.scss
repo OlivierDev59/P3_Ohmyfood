@@ -1,0 +1,20 @@
+.map {
+    @include flexCentre;
+    background-color: $backgroundMap;
+    width: 100%;
+    padding: 10px 0;
+
+    i {
+      font-size: 16px;
+    }
+
+    input {
+      text-align: center;
+      border: none;
+      background-color: $backgroundInput;
+      font-weight: bold;
+      font-size: 18px;
+      width: 170px;
+      margin-left: 10px;
+    }
+  }

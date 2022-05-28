@@ -1,31 +1,31 @@
-section {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  flex-direction: column;
+@media screen and(min-width: 1000px) {
+  section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
 
-  .titleH2 {
-    text-align: center;
+    .titleH2 {
+      text-align: center;
 
-    h2 {
-      margin-left: 60px;
+      h2 {
+        margin-left: 60px;
+      }
+    }
+
+    .food {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .articles {
+      margin: 50px 23px;
+      width: 27vw;
+    }
+
+    .heart {
+      margin-right: 50px;
+      cursor: pointer;
     }
   }
-
-  .food {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .articles {
-    margin: 50px 23px;
-    width: 27vw;
-  }
-
-  .heart {
-    margin-right: 50px;
-    cursor: pointer;
-  }
-
 }
-

@@ -1,0 +1,36 @@
+// abstracts
+
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// bases
+@import "./base/reset";
+@import "./base/base";
+
+// components
+@import "./components/buttons";
+@import "./components/check";
+@import "./components/heart";
+@import "./components/slideMenu";
+@import "./components/loader";
+
+// layout
+@import "./layout/header";
+@import "./layout/location";
+@import "./layout/explorer";
+@import "./layout/fonctionnement";
+@import "./layout/restaurants";
+@import "./layout/footer";
+
+// layout restaurants
+@import "./layout/restaurants/header-restaurant";
+@import "./layout/restaurants/image";
+@import "./layout/restaurants/main";
+@import "./layout/restaurants/menu";
+@import "./layout/footer";
+
+// media
+@import "./medias/mobile-tablet";
+@import "./medias/restaurants-tablet";
+@import "./medias/mobile-desktop";
+@import "./medias/restaurants-desktop";
