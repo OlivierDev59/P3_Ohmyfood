@@ -15,16 +15,6 @@
     margin: 20px 0;
     animation-duration: 1s;
     animation-name: slideMenu;
-    animation-delay: 0.5s;
-
-    @keyframes slideMenu {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
 
     .menu {
       @include flexBetween;

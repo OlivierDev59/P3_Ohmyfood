@@ -5,12 +5,15 @@
     margin-bottom: 25px;
   }
 
-  .choice3 {
-    background-color: rgba(235, 144, 235, 0.233);
-    border-radius: 25px;
+  .choice {
+    &:hover {
+      background-color: rgba(235, 144, 235, 0.233);
+      border-radius: 25px;
+      cursor: pointer;
 
-    .fa-store {
-      color: $colorPrimary;
+      .fa-solid {
+        color: $colorPrimary;
+      }
     }
   }
 

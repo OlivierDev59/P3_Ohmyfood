@@ -113,7 +113,7 @@ p {
   border-radius: 50px;
   background-color: #9356dc;
   background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 150%);
-  transition: opacity 1s;
+  transition: all 1s;
 }
 .btn a {
   text-decoration: none;
@@ -122,7 +122,8 @@ p {
 .btn:hover {
   opacity: 0.8;
   cursor: pointer;
-  transition: opacity 1s;
+  transition: all 1s;
+  box-shadow: 0 0 5px black;
 }
 
 .btnBackground {
@@ -191,7 +192,7 @@ p {
 @keyframes slideMenu {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
@@ -277,15 +278,6 @@ section .titleH2 i {
   margin: 20px 0;
   animation-duration: 1s;
   animation-name: slideMenu;
-  animation-delay: 0.5s;
-}
-@keyframes slideMenu {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 .articles__box .menu {
   display: flex;
